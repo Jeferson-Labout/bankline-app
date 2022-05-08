@@ -4,7 +4,7 @@ import { MovimentacaoListComponent } from './components/movimentacao-list/movime
 import { MovimentacaoNewComponent } from './components/movimentacao-new/movimentacao-new.component';
 
 const routes: Routes = [
-{path: 'movimetancoes-new', component: MovimentacaoNewComponent},
+{path: 'movimentacoes-new', component: MovimentacaoNewComponent},
 {path: 'movimentacoes', component: MovimentacaoListComponent},
 {path: '', redirectTo: 'movimentacoes', pathMatch: 'full'},
 ];
