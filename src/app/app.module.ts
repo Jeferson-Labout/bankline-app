@@ -12,14 +12,16 @@ import localePt from '@angular/common/locales/pt';
 registerLocaleData(localePt);
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CurrencyMaskModule } from "ng2-currency-mask";
-import { FormsModule } from '@angular/forms'
+import { FormsModule } from '@angular/forms';
+import { CorrentistaComponent } from './components/correntista/correntista.component'
 
 
 @NgModule({
   declarations: [
     AppComponent,
     MovimentacaoListComponent,
-    MovimentacaoNewComponent
+    MovimentacaoNewComponent,
+    CorrentistaComponent
   ],
   imports: [
     BrowserModule,
